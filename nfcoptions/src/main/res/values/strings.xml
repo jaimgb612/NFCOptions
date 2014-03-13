@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NFC Options</string>
+    <string name="action_settings">Settings</string>
+    <string name="default_text">Enter your ID (optional):</string>
+    <string name="title_activity_select">NFC Options : Select</string>
+
+    <string name="tap_again">Make one or more selections, then tap again to set</string>
+    <string name="default_select_title">Please Select:</string>
+    <string name="tag_write_err">An error occurred writing the tag</string>
+
+    <string name="write_ok">Wrote selection to tag!</string>
+    <string name="save_button">Save</string>
+    <string name="preference_file_key">prefs</string>
+    <string name="user_id_key">uid</string>
+    <string name="id_saved">Saved</string>
+
+    <string name="no_tag">Tag not found</string>
+    <string name="json_err">Data is not JSON or missing required field</string>
+
+</resources>
