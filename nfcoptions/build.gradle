@@ -9,10 +9,14 @@ android {
 
         myConfig {
 
-            storeFile file(System.getenv("AS_KEYSTORE"))
-            storePassword System.getenv("AS_KEYSTORE_PASSWORD")
-            keyAlias System.getenv("AS_KEY_ALIAS")
-            keyPassword System.getenv("AS_KEY_PASSWORD")
+            // note: gradle will break if these env vars are not
+            // found, so commented out for the time being.  remember
+            // to put these back (or set values) to do a release build
+
+//            storeFile file(System.getenv("AS_KEYSTORE"))
+//            storePassword System.getenv("AS_KEYSTORE_PASSWORD")
+//            keyAlias System.getenv("AS_KEY_ALIAS")
+//            keyPassword System.getenv("AS_KEY_PASSWORD")
 
         }
     }
